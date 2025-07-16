@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cheruku Srilatha - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Cheruku Srilatha</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-left">
+      <h1>Hi, I'm <span>Srilatha</span></h1>
+      <h2>From Hyderabad, India</h2>
+      <p class="tagline">Passionate about turning code into impactful solutions.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn">Contact Me</a>
+        <a href="Srilatharesume.pdf" class="btn" download>Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="profile.jpeg" alt="Cheruku Srilatha" />
+    </div>
+  </section>
+  <!-- About Section -->
+<section id="about" class="about-section">
+  <h2 class="section-title">About <span>Me</span></h2>
+
+  <div class="about-intro">
+    <p>I'm Cheruku Srilatha, a third-year B.E. student in Artificial Intelligence and Data Science at CBIT, Hyderabad.</p>
+    <p>I like building full-stack web applications, solving problems using data, and learning about AI and machine learning.</p>
+    <p>With a CGPA of 9.64 and interest in creating useful projects, I enjoy turning ideas into real solutions.</p>
+  </div>
+
+  <div class="about-tabs">
+    <button onclick="toggleEducation()" class="tab-btn">Education</button>
+  </div>
+
+  <div id="education-content" class="education-content" style="display: none;">
+    <div class="edu-item">
+      <img src="cbit_logo.png" alt="CBIT Logo">
+      <div>
+        <h4>2023 – 2027</h4>
+        <p>CBIT, Hyderabad<br>B.E. in AI & Data Science – CGPA: 9.64</p>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <img src="srjc_logo.png" alt="SR Junior College Logo">
+      <div>
+        <h4>2021 – 2023</h4>
+        <p>S.R. Junior College, Pedda Amberpet<br>Intermediate – 988/1000</p>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <img src="zphs_logo.jfif" alt="ZPHS Logo">
+      <div>
+        <h4>2020 – 2021</h4>
+        <p>ZPHS, Arutla<br>SSC – 10 GPA</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <h2 class="section-title">My <span>Skills</span></h2>
+
+  <div class="skill-category">
+    <h3>💻 Programming Languages</h3>
+    <div class="skills-grid">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">Java</div>
+      <div class="skill-card">C</div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>🧠 Core Concepts</h3>
+    <div class="skills-grid">
+      <div class="skill-card">OOP</div>
+      <div class="skill-card">DBMS</div>
+      <div class="skill-card">Basics of ML</div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>🌐 Web Technologies</h3>
+    <div class="skills-grid">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">React</div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>🗄️ Database & Tools</h3>
+    <div class="skills-grid">
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">MySQL</div>
+      <div class="skill-card">Git & GitHub</div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+  <h2 class="section-title">My <span>Projects</span></h2>
+
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>Shopping Mall Billing System</h3>
+      <p>Java + MySQL based backend system for billing operations in a shopping mall. Used JDBC for database connectivity.</p>
+      <a href="https://github.com/CherukuSrilatha/shopping-mall-billing-system" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Accident Severity Prediction</h3>
+      <p>Machine learning model to predict accident severity levels using Python, pandas, and scikit-learn.</p>
+      <a href="https://github.com/CherukuSrilatha/accident-severity-prediction" target="_blank">View on GitHub</a>
+
+    </div>
+
+    <div class="project-card">
+      <h3>Air Quality Index (AQI) Prediction</h3>
+      <p>Analyzed environmental data and built an ML model to predict AQI levels using regression techniques.</p>
+      <span style="color: #aaa;">(GitHub link coming soon)</span>
+    </div>
+
+    <div class="project-card">
+      <h3>Personal Portfolio Website</h3>
+      <p>A responsive portfolio built using HTML, CSS, and JavaScript to showcase my skills, projects, and resume in one place.</p>
+      <span class="note">(Currently viewing)</span>
+    </div>
+    
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>If you'd like to discuss a project, opportunity, or just say hi — feel free to reach out!</p>
+    <div class="contact-box">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=cherukusrilatha1@gmail.com" target="_blank" class="contact-btn">Email Me</a>
+      <a href="https://www.linkedin.com/in/cheruku-srilatha-4386922ab" target="_blank" class="contact-btn">LinkedIn</a>
+    </div>
+  </section>
+<script src="script.js"></script>
+</body>
+</html>
